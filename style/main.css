@@ -66,7 +66,7 @@ header nav a:hover {
     font-size: 18px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/TedCasa.jpg');
 
-    height: 480px;
+    height: 520px;
     background-size: cover;
 
     display: flex;
@@ -115,7 +115,7 @@ header nav a:hover {
 }
 
 .filme-principal .container {
-    width: 40%;
+    width: 50%;
 }
 
 /*carousel*/
@@ -129,8 +129,10 @@ header nav a:hover {
 .title-catalogo-filmes {
     /*font-family:  Arial, Helvetica, sans-serif;*/
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .carrossel-filmes {
     margin-top: 5px;
 }
+
