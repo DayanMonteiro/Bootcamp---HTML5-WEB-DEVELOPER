@@ -31,7 +31,7 @@
 /* elementos da base*/
 body {
     background: var(--preta);
-    font-family: "Times New Roman", times, sans-serif;
+    font-family: 'Arial', times, sans-serif;
     color: white;
 }
 
@@ -45,7 +45,7 @@ header .container {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: "Bebas Nue" ; /* "Anton"  */
+    font-family: "Bebas Nue",; /* "Anton"  */
     font-size: 50px;
 }
 
@@ -127,6 +127,10 @@ header nav a:hover {
 }
 
 .title-catalogo-filmes {
-    font-family: "Nunito", "Trebuchet MS", Arial, sans-serif;
+    /*font-family:  Arial, Helvetica, sans-serif;*/
     margin-left: 10px;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
 }
