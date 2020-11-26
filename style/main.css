@@ -9,13 +9,26 @@
     box-sizing: border-box;
 }
 
-/* elementos da base*/
+/* fontes adicionais*/
+
+@font-face {
+    font-family: "Anton";
+    src: url("/fonts/Anton-Regular.ttf");
+
+}
 
 @font-face {
     font-family: "Bebas Nue";
     src: url("/fonts/BebasNeue-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Playfair";
+    src: url("/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+
+/* elementos da base*/
 body {
     background: var(--preta);
     font-family: "Times New Roman", times, sans-serif;
@@ -32,7 +45,7 @@ header .container {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: "Bebas Nue";
+    font-family: "Bebas Nue" ; /* "Anton"  */
     font-size: 50px;
 }
 
@@ -51,7 +64,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 18px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/TedCasa02.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/TedCasa.jpg');
 
     height: 480px;
     background-size: cover;
@@ -63,10 +76,57 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-    margin-bottom:40px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-family: "Nunito", "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
 }
 
-.titulo {
+.filme-principal .titulo {
     font-size: 40px;
+    font-family: "Playfair";
+    margin-top: 20%;
+}
 
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 25px;
+}
+
+.filme-principal .container {
+    width: 40%;
+}
+
+/*carousel*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.title-catalogo-filmes {
+    font-family: "Nunito", "Trebuchet MS", Arial, sans-serif;
+    margin-left: 10px;
 }
