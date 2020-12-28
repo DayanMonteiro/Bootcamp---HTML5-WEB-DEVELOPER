@@ -2,7 +2,7 @@
 
 ## HTML5 CSS3 JAVASCRIPT JQuery
 
-![tecnologias](https://github.com/DayanMonteiro/Clone-Netflix/blob/main/tecs.jpg)
+![tecnologias](https://github.com/DayanMonteiro/Bootcamp---HTML5-WEB-DEVELOPER/blob/main/tecs.jpg)
 
 O Clone foi realizado em uma aula do Bootcamp - HTML5 WEB Developer da Digital Inovation One.
 Tomei a liberdade de acrescentar um menu um pouco maior e de cara um dos meus seriados favoritos. 
